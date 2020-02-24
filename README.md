@@ -233,10 +233,9 @@ function reduceWay(callback) {
 и фаворитом в этой "гонке", как видно из таблицы, оказался обычный метод reduce. Разумеется, в реальных условиях этот код будет еще читабельнее и короче (за счет форматирования). И будет выглядеть, например, так:
 
 ````
-	const reduceWay = callback => urls.reduce(  
-		(acc, item) => acc.then(res => fakeFetch(item, res)),  
-		Promise.resolve()  
-	)
+const reduceWay = callback => urls.reduce(
+	(acc, item) => acc.then(res => fakeFetch(item, res)),  
+	Promise.resolve())
 	.then(result => callback(result));  
 }
 ````
