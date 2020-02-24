@@ -3,7 +3,7 @@
 
 ####
 
-![](/assets/main-picture.png)
+![](/assets/main-picture.gif)
 
 #### Вступление
 
