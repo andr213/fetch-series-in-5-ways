@@ -250,9 +250,15 @@ const reduceWay = callback => urls.reduce(
 #### *полезные ссылки*
 
 [Генераторы](https://learn.javascript.ru/generator)
+
 [Асинхронные генераторы](https://learn.javascript.ru/async-iterators-generators#asinhronnye-generatory)
+
 [Массив: перебирающий метод reduce](https://learn.javascript.ru/array-iteration#reduce-reduceright)
+
 [Рекурсия](https://learn.javascript.ru/recursion)
+
 [Async/await](https://learn.javascript.ru/async-await)
+
 [Промисы](https://learn.javascript.ru/promise-basics)
+
 [Цепочка промисов](https://learn.javascript.ru/promise-chaining)
